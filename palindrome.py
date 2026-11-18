@@ -1,5 +1,5 @@
 def is_palindrome(s):
-    # Normalize string: remove spaces and convert to lowercase
+   
     cleaned_s = "".join(s.split()).lower()
     return cleaned_s == cleaned_s[::-1]
 
